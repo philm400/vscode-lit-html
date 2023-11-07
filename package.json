@@ -3,7 +3,7 @@
     "private": true,
     "displayName": "lit-html",
     "description": "Syntax highlighting and IntelliSense for html inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.11.1",
+    "version": "1.11.2",
     "publisher": "bierner",
     "icon": "docs/logo.png",
     "license": "MIT",
@@ -66,11 +66,13 @@
         "grammars": [
             {
                 "injectTo": [
+                    "source.html",
                     "source.js",
                     "source.js.jsx",
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
+                    "text.html",
                     "text.html.basic"
                 ],
                 "scopeName": "inline.lit-html",
@@ -83,11 +85,13 @@
             },
             {
                 "injectTo": [
+                    "source.html",
                     "source.js",
                     "source.js.jsx",
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
+                    "text.html",
                     "text.html.basic"
                 ],
                 "scopeName": "inline.lit-html.string.injection",
@@ -98,11 +102,13 @@
             },
             {
                 "injectTo": [
+                    "source.html",
                     "source.js",
                     "source.js.jsx",
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
+                    "text.html",
                     "text.html.basic"
                 ],
                 "scopeName": "inline.lit-html.style.injection",
@@ -113,11 +119,13 @@
             },
             {
                 "injectTo": [
+                    "source.html",
                     "source.js",
                     "source.js.jsx",
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
+                    "text.html",
                     "text.html.basic"
                 ],
                 "scopeName": "inline.lit-html-svg",
