@@ -40,6 +40,12 @@
 				},
 				{
 					"include": "text.xml"
+				},
+				{
+				  	"include": "inline.es6-htmlx#template"
+				},
+				{
+				  	"include": "string.quoted.other.template.js"
 				}
 			]
 		}
